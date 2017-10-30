@@ -35,10 +35,10 @@ the cache, specifically for dogpile and memcache integration.
 External dependencies & associated security assumptions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Oslo.cache is a wrapper for dogpile and integrates with memcache.
-All dependancies are already present in global requirements. 
+All dependencies are already present in global requirements.
 Without cached memory the service is useless.
 From a security standpoint, nothing is changed beyond bringing
-cache managemnt into a single location which will make it easier
+cache management into a single location which will make it easier
 to update and track. [1]_
 
 
