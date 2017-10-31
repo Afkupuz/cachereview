@@ -39,7 +39,8 @@ All dependencies are already present in global requirements.
 Without cached memory the service is useless.
 From a security standpoint, nothing is changed beyond bringing
 cache management into a single location which will make it easier
-to update and track. [1]_
+to update and track. We continue to assume that user will encrypt
+keys before storage as there is no inherant security. [1]_
 
 
 Components
@@ -73,7 +74,8 @@ Data asset impact analysis
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 Data Assets:
 - *Cache Breach*:
-  - Integrity Failure Impact: Attacker that can infiltrate cache can gain access to stored token.
+  - Integrity Failure Impact: Attacker that can infiltrate cache can gain access to stored token. Tokens should be stored encrypted for maximum
+  security.
 
 
 Resources
