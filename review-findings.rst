@@ -17,7 +17,6 @@ Oslo.cache architecture - 1.26.1/Pike
 - Architect: name - irc handle
 
 - Security Reviewer: name - irc handle
-- Security Reviewer: name - irc handle
 
 
 1. Abstraction of Dogpile

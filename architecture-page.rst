@@ -17,13 +17,14 @@ Oslo.cache architecture - 1.26.1/Pike
 - Architect: name - irc handle
 
 - Security Reviewer: name - irc handle
-- Security Reviewer: name - irc handle
 
 
 Project description and purpose
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Oslo.cache is a way of abstracting and wrapping dogpile cache.
-Also facilitates token storage integration with memcache. [0]_
+oslo.cache aims to provide a generic caching mechanism for OpenStack 
+projects by wrapping the dogpile.cache library. The dogpile.cache library 
+provides support memorization, key value storage and interfaces to common 
+caching backends such as Memcached. [0]_
 
 
 Primary users and use-cases
@@ -40,7 +41,7 @@ Without cached memory the service is useless.
 From a security standpoint, nothing is changed beyond bringing
 cache management into a single location which will make it easier
 to update and track. We continue to assume that user will encrypt
-keys before storage as there is no inherant security. [1]_
+keys before storage as there is no inherent security. [1]_
 
 
 Components
